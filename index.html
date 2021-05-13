@@ -4,14 +4,31 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Template</title>
+    <title>Quote generator</title>
     <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🎯</text></svg>">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
     <link rel="stylesheet" href="style.css">
     
 </head>
 <body>
-    <i class="fab fa-500px"></i>
+    <div class="quote-container" id="quote-container">
+        <!-- qoute -->
+        <div class="quote-text">
+            <i class="fas fa-quote-left">
+            <span id="qoute">If you don't make stuff, there's no stuff.</span>
+            </i>
+        </div>
+    <!-- Author -->
+    <div class="qoute-author">
+        <span id="author">Elon Musk</span>
+    </div>
+    <!-- Buttons -->
+    <div class="button-container">
+        <button class="twiter-button" id="twitter" title="Tweet This!">
+            <i class="fab fa-twitter"></i>
+        </button>
+        <button id="new0quote">New Quote</button>
+    </div>
     <!-- script -->
     <script src="script.js"></script>
 </body>
